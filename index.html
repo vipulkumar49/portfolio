@@ -5,35 +5,76 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/styles.css">
     <title>Vipul Kumar</title>
 </head>
 
 <body>
-    <header class="header --bg-white">
+    <header class="header --bg-gray">
         <div class="main-container">
-            <h1>Hi, I'm Vipul Kumar</h1>
-            <p>This is a sentance</p>
-            <a href="#">Link</a>
+            <div class="greeting-wrapper">
+                <h1>Hi, I'm Vipul Kumar</h1>
+            </div>
+            <div class="intro-wrapper">
+                <div class="nav-wrapper">
+                    <div class="dots-wrapper">
+                        <div class="browser-dot" id="dot-1"></div>
+                        <div class="browser-dot" id="dot-2"></div>
+                        <div class="browser-dot" id="dot-3"></div>
+                    </div>
+                    <ul id="navigation">
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="left-column">
+                    <img src="./images/profile.svg" alt="profile picture" id="profile-pic">
+                    <h5>Personalize Theme</h5>
+                    <div id="theme-option-wrapper">
+                        <div class="theme-dot" id="light-mode"></div>
+                        <div class="theme-dot" id="blue-mode"></div>
+                        <div class="theme-dot" id="green-mode"></div>
+                        <div class="theme-dot" id="purple-mode"></div>
+                    </div>
+                    <!-- <p id="settings-note">*Theme settings will be saved for<br>your next vist</p> -->
+                </div>
+                <div class="right-column">
+                    <div id="preview-shadow">
+                        <div id="preview">
+                            <div class="corner" id="corner-tl"></div>
+                            <div class="corner" id="corner-tr"></div>
+
+                            <h3>What I Do</h3>
+                            <p>I am full stack developer. I enjoy building solid and scalable web apps with great user
+                                experience.</p>
+                            <div class="corner" id="corner-bl"></div>
+                            <div class="corner" id="corner-br"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-    <section class="about --bg-gray">
-        <div class="main-container">
-            About
-        </div>
-    </section>
     <section class="about --bg-white">
         <div class="main-container">
-            Portfolio
+            <p>About</p>
         </div>
     </section>
-    <section class="about --bg-gray">
+    <section class="portfolio --bg-gray">
         <div class="main-container">
-            Contact
+            <p>Portfolio</p>
         </div>
     </section>
-    <footer>
-        Profiles
+    <section class="contact --bg-white">
+        <div class="main-container">
+            <p>Contact</p>
+        </div>
+    </section>
+    <footer class="footer --bg-gray">
+        <div class="main-container">
+            <p>Profiles</p>
+        </div>
     </footer>
 </body>
 
